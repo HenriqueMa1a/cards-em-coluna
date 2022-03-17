@@ -1,0 +1,113 @@
+.box{
+    
+    width: 58%;
+    margin: 150px auto 250px;
+    
+ 
+}
+
+.box1{
+    
+    width: 250px;
+    display: inline-block;
+    background:  hsl(31, 77%, 52%);
+    
+}
+
+.box2 {
+    
+    width: 250px;
+    display: inline-block;
+    background: hsl(184, 100%, 22%);
+}
+
+.box3 {
+    
+    width: 250px;
+    display: inline-block;
+    background:  hsl(179, 100%, 13%);
+    
+}
+.model{
+
+    margin: 15px 0 0 50px;
+
+}
+
+section h1{
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    margin: 20px 0 20px 50px;
+    font-family: url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+    font-weight: 700;
+
+}
+section p{
+
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: url("https://fonts.google.com/specimen/Lexend+Deca");
+    font-weight: 400;
+    margin: 0 50px 70px;
+
+}
+
+.link1{
+
+    padding: 15px;
+    background: hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%);
+    border-radius: 25px;
+    margin:0 0 20px 50px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+    font-weight: 700;
+
+}
+.link1:active {
+
+    border: 2px solid hsl(0, 0%, 95%);
+    background: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+
+}
+.link2{
+
+    padding: 15px;
+    background: hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%);
+    border-radius: 25px;
+    margin:0 0 20px 50px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+    font-weight: 700;
+
+}
+.link2:active {
+
+    border: 2px solid hsl(0, 0%, 95%);
+    background: hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+
+}
+
+.link3{
+
+    padding: 15px;
+    background: hsl(0, 0%, 95%);
+    color:hsl(179, 100%, 13%);
+    border-radius: 25px;
+    margin:0 0 20px 50px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+    font-weight: 700;
+
+}
+.link3:active {
+
+    border: 2px solid hsl(0, 0%, 95%);
+    background: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
