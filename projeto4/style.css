@@ -1,113 +1,146 @@
+body{
+background: beige;
+
+}
 .box{
-    
-    width: 58%;
-    margin: 150px auto 250px;
-    
- 
+     
+    margin: 80px auto ;
+    width: 940px;
 }
 
-.box1{
-    
-    width: 250px;
-    display: inline-block;
-    background:  hsl(31, 77%, 52%);
-    
-}
+.icone{
 
-.box2 {
-    
-    width: 250px;
-    display: inline-block;
-    background: hsl(184, 100%, 22%);
-}
-
-.box3 {
-    
-    width: 250px;
-    display: inline-block;
-    background:  hsl(179, 100%, 13%);
-    
-}
-.model{
-
-    margin: 15px 0 0 50px;
+    margin: 2em 0 0 2em;
 
 }
 
-section h1{
+h1 {
+    padding: 1em 0 1em 1em;
     text-transform: uppercase;
+    font-size: 2em;
+    font-family: 'Big Shoulders Display', cursive;
     color: hsl(0, 0%, 95%);
-    margin: 20px 0 20px 50px;
-    font-family: url("https://fonts.google.com/specimen/Big+Shoulders+Display");
-    font-weight: 700;
-
 }
-section p{
-
+p{
+    padding:0 2em ;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1m;
     color: hsla(0, 0%, 100%, 0.75);
-    font-family: url("https://fonts.google.com/specimen/Lexend+Deca");
-    font-weight: 400;
-    margin: 0 50px 70px;
-
+    
 }
 
-.link1{
-
-    padding: 15px;
-    background: hsl(0, 0%, 95%);
-    color:hsl(31, 77%, 52%);
-    border-radius: 25px;
-    margin:0 0 20px 50px;
-    text-decoration: none;
+.boxsedan{
     display: inline-block;
-    font-family: url("https://fonts.google.com/specimen/Big+Shoulders+Display");
-    font-weight: 700;
-
-}
-.link1:active {
-
-    border: 2px solid hsl(0, 0%, 95%);
+    width: 33%;
     background: hsl(31, 77%, 52%);
-    color: hsl(0, 0%, 95%);
-
-}
-.link2{
-
+    border-radius: 15px 0 0 15px ;
+} 
+.boxsedan .botão{
+    color: hsl(31, 77%, 52%); 
     padding: 15px;
-    background: hsl(0, 0%, 95%);
-    color:hsl(184, 100%, 22%);
-    border-radius: 25px;
-    margin:0 0 20px 50px;
-    text-decoration: none;
     display: inline-block;
-    font-family: url("https://fonts.google.com/specimen/Big+Shoulders+Display");
-    font-weight: 700;
-
+    padding: 15px;
+    background:  hsl(0, 0%, 95%);
+    border-radius: 25px;
+    margin: 5em 0 2em 2em;
 }
-.link2:active {
 
-    border: 2px solid hsl(0, 0%, 95%);
+.boxsedan .botão:hover{
+
+    background:hsl(31, 77%, 52%) ;
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.boxsuv{
+    display: inline-block;
+    width: 33%;
     background: hsl(184, 100%, 22%);
-    color:hsl(0, 0%, 95%);
 
+  
 }
-
-.link3{
-
+.boxsuv .botão{
+    color: hsl(184, 100%, 22%) ;
     padding: 15px;
-    background: hsl(0, 0%, 95%);
-    color:hsl(179, 100%, 13%);
-    border-radius: 25px;
-    margin:0 0 20px 50px;
-    text-decoration: none;
     display: inline-block;
-    font-family: url("https://fonts.google.com/specimen/Big+Shoulders+Display");
-    font-weight: 700;
+    padding: 15px;
+    background:  hsl(0, 0%, 95%);
+    border-radius: 25px;
+    margin: 5em 0 2em 2em;
+   
+}
+
+.boxsuv .botão:hover{
+
+    background: hsl(184, 100%, 22%)  ;
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.boxluxury{ 
+    display: inline-block;
+    width: 33%;
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 15px 15px 0;
+}
+.boxluxury .botão{
+    background: white;
+    color: hsl(179, 100%, 13%) ;
+    display: inline-block;
+    padding: 15px;
+    background:  hsl(0, 0%, 95%);
+    border-radius: 25px;
+    margin: 5em 0 2em 2em;
+}
+
+.boxluxury .botão:hover{
+
+    background:hsl(179, 100%, 13%) ;
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+.attribution{
+    text-transform: uppercase;
+    text-align: center;
 
 }
-.link3:active {
+.attribution a{
+    color: hsl(184, 100%, 22%);
+    text-decoration: none;
+    transition: 1s all;
+}
+a:hover{
 
-    border: 2px solid hsl(0, 0%, 95%);
-    background: hsl(179, 100%, 13%);
-    color: hsl(0, 0%, 95%);
+    font-size: 1.5em;
+    cursor: pointer;
+    text-shadow: 10px 10px 5px hsl(179, 100%, 13%) ;
+    
+}
+/*início do mobile*/
+
+@media screen and (max-width:480px){
+    .box{
+        width: auto;
+    }
+    .boxsedan, .boxsuv, .boxluxury{
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+        
+    }
+    .boxsedan{
+        border-radius: 15px 15px 0 0;
+    }
+    .boxluxury{
+
+        border-radius: 0 0 15px 15px;
+
+    }
+    
+    .attribution{
+        line-height: 1.5;
+    }
 }
